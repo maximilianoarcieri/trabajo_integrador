@@ -13,4 +13,10 @@ También se incluyen pruebas y modificaciones personales, ya que la versión fin
  
   Si el usuario ya está registrado, ingresa sus datos y si la clave es correcta, se le permitirá el ingreso.
   
-  
+ ## Funciones
+ ### Register
+ Se presenta la ventana que permitirá que los usuarios se registren con sus datos.
+ ### Encrypt
+ Recibe la contraseña del usuario nuevo y la guarda en la base de datos aplicando un algoritmo de encriptado (este algoritmo lo desarrollé yo a modo de prueba, no se busca una seguridad avanzada ni mucho menos).
+ 
+ Tambíen, al momento de que un usuario quiere conectarse con usuario y contraseña, este módulo aplica el algoritmo inverso sobre la clave almacenada en la base de datos correspondiente al usuario recibido. Si esta coincide con la que el usuario ingresó se permite el ingreso.
